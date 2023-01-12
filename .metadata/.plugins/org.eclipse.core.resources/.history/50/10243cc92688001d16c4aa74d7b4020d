@@ -1,0 +1,18 @@
+package com.qms.auth.serviceImpl;
+
+import org.springframework.http.ResponseEntity;
+
+import com.qms.auth.repository.UserRepository;
+import com.qms.auth.service.UserService;
+
+public class UserServiceImpl implements UserService{
+	
+	private UserRepository userRepository;
+
+	@Override
+	public ResponseEntity<?> register() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

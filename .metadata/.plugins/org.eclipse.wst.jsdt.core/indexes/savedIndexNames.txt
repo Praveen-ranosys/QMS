@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+/home/ranosys/Documents/Training Work/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2686406692.index
+3661915221.index
+882580444.index
+1017024807.index
+4113052893.index

@@ -1,0 +1,26 @@
+
+u
+java:S1192 "FDefine a constant instead of duplicating this literal "/home" 3 times.(©º£ŠH²RCRITICALZ
+CODE_SMELL
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ì´×ŒÿÿÿÿÿH¶RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜Ã´ùÿÿÿÿH·RMINORZ
+CODE_SMELL
+u
+java:S1874"DRemove this use of "WebSecurityConfigurerAdapter"; it is deprecated.(ì´×ŒÿÿÿÿÿH¸RMINORZ
+CODE_SMELL
+˜
+java:S4601!"fReorder the URL patterns from most to less specific, the pattern "/home" should occurs before "/home".(±ˆâäH¹RCRITICALZVULNERABILITY
+g	java:S125%"<This block of commented-out lines of code should be removed.(¶Å²¾H»RMAJORZ
+CODE_SMELL
+l	java:S125/"<This block of commented-out lines of code should be removed.(Û©’¸üÿÿÿÿH¼RMAJORZ
+CODE_SMELL
+§
+java:S1128"{Remove this unused import 'org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity'.(Ô¦øH¾RMINORZ
+CODE_SMELL
+‰
+java:S1128"]Remove this unused import 'org.springframework.security.crypto.password.NoOpPasswordEncoder'.(ƒ»ÅÅHÀRMINORZ
+CODE_SMELL
+Š
+java:S1128"YRemove this unused import 'org.springframework.security.crypto.password.PasswordEncoder'.(‰¡ßáÿÿÿÿÿHÂRMINORZ
+CODE_SMELL

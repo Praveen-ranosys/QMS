@@ -1,0 +1,26 @@
+
+{
+java:S1192,"GDefine a constant instead of duplicating this literal "signup" 4 times.(Ÿ‚òùÿÿÿÿHµ	RCRITICALZ
+CODE_SMELL
+v	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(Ó­Ş€üÿÿÿÿH¯	RMAJORZ
+CODE_SMELL
+T
+java:S1481@"(Remove this unused "res" local variable.(ã¥ÃÕH¿	RMINORZ
+CODE_SMELL
+g
+java:S2441B"=Make "Message" serializable or don't store it in the session.(¼¨ÆğşÿÿÿÿHÁ	RMAJORZBUG
+v
+java:S4488/"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ÚŞ•H½	RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•»èíHº	RMINORZ
+CODE_SMELL
+z
+java:S1192"FDefine a constant instead of duplicating this literal "title" 4 times.(şñ„ÍûÿÿÿÿH°	RCRITICALZ
+CODE_SMELL
+r
+java:S46840"@Replace this persistent entity with a simple POJO or DTO object.(½İÚøH¼	RCRITICALZVULNERABILITY
+g
+java:S2441I"=Make "Message" serializable or don't store it in the session.(ÈëıøÿÿÿÿÿHÂ	RMAJORZBUG
+c
+java:S1854@"7Remove this useless assignment to local variable "res".(ã¥ÃÕH»	RMAJORZ
+CODE_SMELL

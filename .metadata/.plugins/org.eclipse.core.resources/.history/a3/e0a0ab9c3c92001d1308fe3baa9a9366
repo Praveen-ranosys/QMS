@@ -1,0 +1,46 @@
+package com.qms.auth.serviceImpl;
+
+import java.time.LocalDateTime;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import com.qms.auth.dto.SignInRequest;
+import com.qms.auth.dto.SignUpRequest;
+import com.qms.auth.model.User;
+import com.qms.auth.repository.UserRepository;
+import com.qms.auth.service.UserService;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserRepository userRepository;
+
+	@Override
+	public ResponseEntity<?> register(SignUpRequest request) {
+		User user = userRequestToModel(request);
+		userRepository.save(user);
+		return ResponseEntity.ok("User created successfully!!!");
+	}
+
+	private User userRequestToModel(SignUpRequest request) {
+		User user = new User();
+		user.setUsername(request.getFirstname());
+		user.setLastName(request.getLastname());
+		user.setEmail(request.getEmailId());
+		user.setPassword(request.getPassword());
+		user.setMobileNumber(user.getMobileNumber());
+		user.setCreatedOn(LocalDateTime.now());
+		user.setUpdatedOn(LocalDateTime.now());
+		return user;
+	}
+
+	@Override
+	public ResponseEntity<?> signIn(SignInRequest signInRequest) {
+//		if(signInRequest.getEmailId() == )
+		return null;
+	}
+
+}

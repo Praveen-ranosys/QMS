@@ -1,0 +1,9 @@
+package com.qms.auth.service;
+
+import org.springframework.http.ResponseEntity;
+
+public interface UserService {
+
+	ResponseEntity<?> register();
+
+}

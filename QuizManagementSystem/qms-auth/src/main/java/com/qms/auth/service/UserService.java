@@ -1,0 +1,14 @@
+package com.qms.auth.service;
+
+import org.springframework.http.ResponseEntity;
+
+import com.qms.auth.dto.SignInRequest;
+import com.qms.auth.dto.SignUpRequest;
+
+public interface UserService {
+
+	ResponseEntity<?> register(SignUpRequest request);
+
+	ResponseEntity<?> signIn(SignInRequest signInRequest);
+
+}

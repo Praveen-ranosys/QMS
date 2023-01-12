@@ -1,0 +1,41 @@
+
+c	java:S106+"9Replace this use of System.out or System.err by a logger.(³ÎéH7RMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(ø‹œ»H,RMAJORZ
+CODE_SMELL
+h	java:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿH0RMAJORZ
+CODE_SMELL
+h	java:S106"9Replace this use of System.out or System.err by a logger.(­¡¹æÿÿÿÿÿH-RMAJORZ
+CODE_SMELL
+W
+java:S1125#"'Remove the unnecessary boolean literal.(ºø£ïúÿÿÿÿH1RMINORZ
+CODE_SMELL
+U
+java:S1197"*Move the array designators [] to the type.(­è™“HRMINORZ
+CODE_SMELL
+h	java:S106"9Replace this use of System.out or System.err by a logger.(œ²ÖæüÿÿÿÿHRMAJORZ
+CODE_SMELL
+R
+java:S1125"'Remove the unnecessary boolean literal.(‚Ü¥ËHRMINORZ
+CODE_SMELL
+L
+java:S1110&"!Remove these useless parentheses.(‰æòáH4RMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(×•œ²H.RMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(èâï–HRMAJORZ
+CODE_SMELL
+c	java:S106""9Replace this use of System.out or System.err by a logger.(×•œ²H/RMAJORZ
+CODE_SMELL
+c	java:S106,"9Replace this use of System.out or System.err by a logger.(ñ›ØöH8RMAJORZ
+CODE_SMELL
+E
+java:S1220""Move this file to a named package.HRMINORZ
+CODE_SMELL
+c	java:S106%"9Replace this use of System.out or System.err by a logger.(³ÎéH3RMAJORZ
+CODE_SMELL
+c	java:S106&"9Replace this use of System.out or System.err by a logger.(‰æòáH6RMAJORZ
+CODE_SMELL
+‡
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Çµí‘8–İùíÓ0HARCRITICALZ
+CODE_SMELL
